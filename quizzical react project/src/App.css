@@ -4,8 +4,8 @@
 }
 .first-page-container{
   background-color:#F5F7FB;
-  width:550px;
-  height:550px;
+  width:700px;
+  height:700px;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -58,14 +58,17 @@ body{
 }
 .second-page-container{
   background-color:#F5F7FB;
-  width:550px;
-  height:550px;
+  width:700px;
+  height:700px;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
 }
 .quiz-elements{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   margin-bottom:30px;
 }
 .check-answers-button{
