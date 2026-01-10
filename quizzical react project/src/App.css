@@ -66,10 +66,18 @@ body{
   justify-content:center;
 }
 .quiz-elements{
+  width:450px;
   display:flex;
   flex-direction:column;
   align-items:center;
+  flex-wrap:wrap;
   margin-bottom:30px;
+}
+.quiz-buttons-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
 }
 .check-answers-button{
   width:120px;
