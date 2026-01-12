@@ -1,0 +1,9 @@
+[build]
+  command = "cd 'quizzical react project' && npm run build"
+  publish = "quizzical react project/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

@@ -1,5 +1,13 @@
 {
   "dependencies": {
-    "html-entities": "^2.6.0"
+    "html-entities": "^2.6.0",
+    "vite": "^7.3.1"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd 'quizzical react project' && vite",
+    "build": "cd 'quizzical react project' && npm run build",
+    "preview": "cd 'quizzical react project' && vite preview"
   }
 }
