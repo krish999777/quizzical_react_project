@@ -1,6 +1,8 @@
 *{
   margin:0;
   padding:0;
+  transform:scale(1.02);
+  transform-origin: 0 0;
 }
 .first-page-container{
   background-color:#F5F7FB;
@@ -90,4 +92,9 @@ body{
 }
 .clicked{
   background-color:#D6DBF5;
+}
+.correct-answer-count{
+  font-family:inter;
+  color:#293264;
+  size:12.8px;
 }
