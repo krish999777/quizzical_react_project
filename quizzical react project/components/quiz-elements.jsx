@@ -29,7 +29,7 @@ export default function(props){
             <div className="quiz-buttons-container">
                 {options.map((option,index)=>{
                     return(
-                        <button key={index} id={index+1} onClick={!props.checkAnswerClicked?(target=>toggleClickedOption(target)):''} className={`quiz-options ${clickedOption==index+1?'clicked':""}`}>{decode(option)}</button>
+                        <button key={index} id={index+1} onClick={!props.checkAnswerClicked?(target=>toggleClickedOption(target)):''} className={`quiz-options ${clickedOption==index+1?'clicked':""} ${props.checkAnswerClicked?index===props.correctOption-1?'correct':index===props.incorrectOption-1?'wrong':'blank':''}`}>{decode(option)}</button>
                     )
                 })}
             </div>

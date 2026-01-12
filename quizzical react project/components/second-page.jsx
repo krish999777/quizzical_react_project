@@ -41,6 +41,8 @@ export default function(props){
                 setCurrentClicked={setCurrentClicked}
                 questionNumber={index+1}
                 checkAnswerClicked={checkAnswerClicked}
+                correctOption={correctOptionsArray[index]}
+                incorrectOption={currentClickedArray[index]}
             />)
     })}
             {checkAnswerClicked?<div className='correct-answer-count'>Correct Answers:{correctAnswerCount.current}/5</div>:<button onClick={checkAnswerClickedSetter} className="check-answers-button">Check Answers</button>}

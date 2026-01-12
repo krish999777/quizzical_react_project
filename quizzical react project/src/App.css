@@ -98,3 +98,12 @@ body{
   color:#293264;
   size:12.8px;
 }
+.correct{
+  background-color:#94D7A2;
+}
+.wrong{
+  background-color:#F8BCBC;
+}
+.blank{
+  opacity:50%;
+}
